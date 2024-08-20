@@ -1,0 +1,83 @@
+.Hero {
+    margin-bottom: 25px;
+    margin-top: 2rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    gap: 2.5rem;
+}
+
+#basic-info {
+    width: 60%;
+    background-color: #EDEDFF;
+    padding: 30px;
+    border-radius: 12px;
+    gap: 12px;
+}
+#basic-info h6 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#basic-info li {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 1.25rem;
+    word-wrap: break-word;
+    line-break: loose;
+}
+
+#balance {
+    width: 40%;
+    padding: 0 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+
+}
+#balance .balance-item {
+    margin-bottom: 2.5rem;
+}
+#balance h5 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+#balance p {
+    font-family: 'Dm Sans';
+    font-weight: 500;
+    font-size: 3.25rem;
+    color: #2528FF;
+}
+#balance p,
+#balance h5 {
+    margin: 0;
+}
+#balance .cta {
+    font-size: 10px;
+    padding: 3px 10px;
+    background-color: rgba(133, 133, 133, 0.8);
+}
+
+@media (max-width: 991px) {
+    .Hero {
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+    .Hero #basic-info,
+    .Hero #balance {
+        width: 100%;
+        max-width: 100%;
+    }
+    .Hero #balance {
+        margin-top: 25px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .Hero #basic-info {
+        background-size: cover !important;
+    }
+}

@@ -1,0 +1,44 @@
+.StakeCard {
+	--color: var(--blue);
+	background-color: rgb(239, 244, 245);
+	border-radius: 8px;
+	padding: 16px 16px 16px 16px;
+	border: 1px solid var(--color);
+	position: relative;
+	/* overflow: hidden; */
+	/* margin: 0 20px; */
+	width: 100%;
+}
+.StakeCard .bg-txt {
+	color: black;
+	margin-bottom: 0;
+}
+.StakeCard .sm-txt {
+	color: var(--blue);
+	margin-top: 0;
+}
+
+.progress {
+	border-radius: 6px;
+	background-color: rgba(133, 133, 133, 0.8);
+	margin-top: 10px;
+	overflow: hidden;
+	max-height: 1rem;
+}
+.progress .sm-txt {
+	color: white;
+}
+.progress .completed {
+	background-color: var(--purple);
+	width: 25%;
+	user-select: none;
+
+	display: flex;
+	justify-content: center;
+}
+
+@media (max-width: 991px) {
+	.StakeCard:not(:first-of-type) {
+		margin-top: 25px;
+	}
+}

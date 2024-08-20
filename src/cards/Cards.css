@@ -1,0 +1,40 @@
+.Cards {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem; 
+}
+
+.Cards > .flex-row:nth-child(2) > .flex-col > .Card {
+    --color: var(--purple);
+    --d-color: var(--d-purple);
+    --s-color: var(--s-purple);
+}
+.Cards > .flex-row:nth-child(2) > .flex-col > .Card .cta-fw {
+    --color: var(--purple);
+    --d-color: var(--d-purple);
+    --s-color: var(--s-purple);
+}
+.Cards > .flex-row:nth-child(1) > .flex-col > .Card {
+    --color: var(--blue);
+    --d-color: var(--d-blue);
+    --s-color: var(--s-blue);
+}
+.Cards > .flex-row:nth-child(1) > .flex-col > .Card .cta-fw {
+    --color: var(--blue);
+    --d-color: var(--d-blue);
+    --s-color: var(--s-blue);
+}
+
+@media (max-width: 1024px) {
+
+}
+@media (max-width: 911px) {
+    .Cards > .flex-row {
+        flex-wrap: wrap;
+    }
+    .Cards > .flex-row > .flex-col {
+        margin-top: 25px;
+    }
+    /* .Cards .Card {
+        margin-top: 25px;
+    } */
+}

@@ -1,0 +1,9 @@
+.Stake h2 {
+    color: black;
+}
+
+@media (max-width: 991px) {
+    .Stake > .flex-row {
+        flex-wrap: wrap;
+    }
+}

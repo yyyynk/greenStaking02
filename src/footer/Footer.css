@@ -1,0 +1,28 @@
+.Footer {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Footer .badge-items {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.Footer .badge-items .item {
+    margin-left: 3rem;
+}
+
+.Footer .footer1-item {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Footer .footer-text {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+}

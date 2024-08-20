@@ -1,0 +1,109 @@
+.Referr .bg-txt {
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-size: 3.25rem;
+    line-height: 3.25rem;
+}
+
+#staked,
+#referral {
+    padding: 16px;
+    border-radius: 16px;
+}
+
+#staked {
+    width: 30%;
+    background-color: #2528FF;
+    color: #fff;
+    padding: 30px 15px;
+}
+
+#staked .sm-txt {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 1.15rem;
+    line-height: 2rem;
+}
+
+#staked .cta-fw {
+    padding: 12px 14px;
+    gap: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    margin-bottom: 14px;
+}
+#staked .cta-fw span {
+    color: #2528FF;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    text-align: center;
+    vertical-align: center;
+}
+
+#referral {
+    width: 70%;
+    margin-left: 30px;
+    background-color: #D2D2E0;
+    border: 1px solid #D2D2E0;
+}
+
+#referral .flex-col {
+    padding: 14px;
+}
+
+#referral #earn-staked-text {
+    padding: 0;
+    width: 40%;
+    font-size: 14px;
+    font-family: DM Sans;
+    color: #2D2D2D;
+    line-height: 1.9rem;
+}
+#referral .sm-txt {
+    color: #4A4A4A;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+#referral .bg-txt {
+    color: var(--blue);
+}
+#referral > .flex-col > .flex-row {
+    padding: 0 15px;
+}
+
+.input {
+    border-radius: 5px;
+    background-color: rgba(133, 133, 133, 0.8);
+    color: white;
+    padding: .375rem .75rem;
+    width: 100%;
+    margin-right: 15px;
+}
+
+@media (max-width: 991px) {
+    .Referr > .flex-row {
+        flex-wrap: wrap;
+    }
+    .Referr #staked,
+    .Referr #referral {
+        width: 100%;
+    }
+    .Referr #referral {
+        margin: 25px auto 0 auto;
+    }
+}
+@media (max-width: 600px) {
+    #referral > .flex-col > .flex-row:nth-child(3) {
+        flex-wrap: wrap;
+    }
+    #referral > .flex-col > .flex-row:nth-child(3) > .flex-col {
+        width: 50% !important;
+    }
+    #referral > .flex-col > .flex-row:nth-child(3) > .flex-col:nth-child(3) {
+        width: 100% !important;
+    }
+}
